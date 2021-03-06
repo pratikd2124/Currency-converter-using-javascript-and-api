@@ -1,0 +1,66 @@
+body{
+    background-image: url('https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-color: rgba(0, 0, 0, 0.781);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;min-width: 100%;min-height: 100%;
+    
+    
+}
+h3{ text-align: center; color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+main{
+    padding-top: 8%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+section{
+    padding: 7%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    width: 270px;
+    background-color: rgba(189, 209, 252, 0.281);
+    border-radius: 10px;
+    
+    box-shadow: 10px 10px 70px  rgba(0,0,0,0.68);
+}
+section .align_container input{
+    padding: 4px;
+    border-radius: 5px;
+    border: 1px;
+}
+section .align_container{
+    display: flex;align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    
+    
+}
+#Currency_selector{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+section #convert{
+   margin-right: 20%;margin-left: 20%;
+   background-color: #0e5bd6;width: 60%;
+   padding: 7px 7px;
+   border-radius: 3px; border: 1px;
+   outline-style: hidden;
+   cursor: pointer;
+   color: white;
+}
+#convert:hover{
+    background-color: white;
+    color: #1125d4;font-weight: bold;
+    border: 10px solid 2a76f1;
+    
+}
+.date{
+    display: flex;color: aliceblue;
+    text-shadow: 1px 2px 5px black;
+    justify-content: center;
+    align-items: center;font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
