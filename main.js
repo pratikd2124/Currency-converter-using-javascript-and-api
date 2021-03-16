@@ -39,4 +39,21 @@ cnv.addEventListener("click", () => {
     //result = `content.rates.${to_currency.value}`;
     //document.querySelector("#curr_amount_2").innerHTML;
 });
+/**
+async function currency(){
+const res = await fetch(api);
+const data = await res.json();
+console.log(data.rates);
+const rate = data.rates[to_currency];
+console.log(rate);
+const arrkeys = Object.keys(data.rates);
+console.log(arrkeys);
+
+
+
+console.log(to_currency);
+
+};
+currency();
+**/
 
